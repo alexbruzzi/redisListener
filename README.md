@@ -44,7 +44,6 @@ ruby redisListen.rb stop
 - There has to be a method which pushes a redis shadow key (check octocore/callbacks.rb)
 - To check if redisListener is catching those expired shadow keys run the following
   ```
-  cd to redisListener
   tail -f redisListener/shared/logs/redisListen.output
   ```
 - This will print the keys as and when they're expired
